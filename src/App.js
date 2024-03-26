@@ -1,4 +1,5 @@
 import "./App.css";
+import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 
       <div className="main-body">
         <h1>Welcome to my Booking Site</h1>
+        <Home />
       </div>
       <footer>
         <div
