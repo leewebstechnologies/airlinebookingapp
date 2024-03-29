@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./components/home/Home";
+import AppRoutes from "./AppRoutes";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
@@ -15,11 +15,13 @@ function App() {
         ></div>
         <Navbar />
       </header>
-
-      <div className="main-body">
-        <h1>Welcome to my Booking Site</h1>
-        <Home />
-      </div>
+      <main>
+        <div className="main-body">
+          <h1>Welcome to Interswitch Air Booking Site</h1>
+          <br />
+          <AppRoutes />
+        </div>
+      </main>
       <footer>
         <div
           style={{
