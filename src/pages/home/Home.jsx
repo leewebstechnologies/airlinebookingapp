@@ -1,4 +1,4 @@
-import { Button, Container, Paper, Stack, TextField } from "@mui/material";
+import { Box, Button, Container, Paper, Stack, TextField } from "@mui/material";
 import "./home.css";
 
 import Radio from "@mui/material/Radio";
@@ -95,6 +95,39 @@ const Home = (props) => {
             <Container maxWidth="xl">
               <Paper elevation={6}>
                 <h3>Recommendations</h3>
+                <div style={{ padding: "10px" }}>
+                  <Stack direction="row" justifyContent="center" spacing={3}>
+                    <Box
+                      sx={{
+                        width: 200,
+                        height: 200,
+                        border: "1px solid orange",
+                      }}
+                    />
+                    <Box
+                      sx={{
+                        width: 200,
+                        height: 200,
+                        border: "1px solid orange",
+                      }}
+                    />
+                    <Box
+                      sx={{
+                        width: 200,
+                        height: 200,
+                        border: "1px solid orange",
+                      }}
+                    />
+                    <Box
+                      sx={{
+                        width: 200,
+                        height: 200,
+                        border: "1px solid orange",
+                      }}
+                    />
+                  </Stack>
+                  <br />
+                </div>
               </Paper>
             </Container>
           </Stack>
